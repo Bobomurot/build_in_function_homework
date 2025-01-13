@@ -8,4 +8,8 @@ def main(a):
     Qaytish:
         float: 2 onlik raqamgacha yaxlitlangan natija
     """
-    return
+    x = round(a, 2)
+    return x
+b = main(3.456)
+
+print(b) # Output: 3.46

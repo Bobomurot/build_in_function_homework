@@ -9,4 +9,8 @@ def main(x, y):
     Qaytish:
         int: ifodaning qiymati
     """
-    return
+    a = 2*((y ** 3) + (x ** 2)*y)
+    
+    return a
+
+print(main(2, 4))  # Output: 126

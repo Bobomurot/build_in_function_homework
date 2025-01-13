@@ -8,4 +8,7 @@ def main(n):
     Qaytish:
         float: ifodaning qiymati
     """
-    return
+    a = 3 * ((n + 1)**2)
+    return a
+x = main(3.5)
+print(x)

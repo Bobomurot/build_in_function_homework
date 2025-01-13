@@ -9,4 +9,7 @@ def main(x, y):
     Qaytish:
         int: ifodaning qiymati
     """
-    return
+    a = 5 * (x ** 2) * (y ** 3) + x * (y ** 2)
+    return a
+b = main(7, 1)
+print(b)

@@ -7,4 +7,4 @@ def main(number):
     Qaytish:
         int: 'number' ning mutlaq qiymati
     """
-    return
+    return int(number)

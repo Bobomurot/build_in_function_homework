@@ -9,4 +9,7 @@ def main(n, x):
     Qaytish:
         int: ifodaning qiymati
     """
-    return
+    a = ((x**n)+(n**x))
+    return a
+b = main(3, 6)
+print(b)

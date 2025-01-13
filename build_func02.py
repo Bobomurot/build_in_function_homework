@@ -8,4 +8,8 @@ def main():
     Qaytish:
         float: ifodaning qiymati
     """
-    return
+    a = 3*((7/5)-(9/4))
+    return float(a)
+x = main()
+
+print(x)
